@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5A43E6</color>
+    <color name="colorPrimaryDark">#3826B1</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="myBlue">#5A43E6</color>
+    <color name="myWhite">#FFFFFF</color>
+    <color name="myWhiteAsh">#B8B8B8</color>
+    <color name="myDark">#252525</color>
+    <color name="my_secondary_blue">#2595F5</color>
+    <color name="myBlack">#21272C</color>
+    <color name="reg_white">#EDF1F8</color>
+    <color name="greenPrimary">#A1E1B0</color>
+    <color name="myMaroon">#D1206B</color>
+    <color name="myAbu">#8D8D8D</color>
+    <color name="myGreen_pay">#1ABC9C</color>
+</resources>

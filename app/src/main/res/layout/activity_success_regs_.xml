@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SuccessRegs_Activity"
+    android:background="@color/reg_white">
+
+    <ImageView
+        android:id="@+id/icon_success"
+        android:layout_width="270dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/icon_success_signup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/selamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/mregular"
+        android:text="@string/selamat_label"
+        android:textColor="@color/myDark"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/icon_success" />
+
+    <TextView
+        android:id="@+id/kontentt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/mlight"
+        android:text="Wellcome to Tiketku \nfind some beauty place !"
+        android:lineSpacingExtra="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/myDark"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selamat" />
+
+    <Button
+        android:id="@+id/btn_explore"
+        android:layout_width="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/bg_btn_primary"
+        android:fontFamily="@font/mmedium"
+        android:textSize="15sp"
+        android:text="@string/explore_label"
+        android:textColor="@color/myWhite"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kontentt" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

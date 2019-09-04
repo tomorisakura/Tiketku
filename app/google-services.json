@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "112945411415",
+    "firebase_url": "https://tiketku-ea301.firebaseio.com",
+    "project_id": "tiketku-ea301",
+    "storage_bucket": "tiketku-ea301.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112945411415:android:ec56c4d8e3dbf1b0",
+        "android_client_info": {
+          "package_name": "grevi.msx.tiketku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112945411415-pagaj3lnqeumjlv2388ni25501qngh7i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "grevi.msx.tiketku",
+            "certificate_hash": "14d3f6023809e35439c7eb58940525db66517913"
+          }
+        },
+        {
+          "client_id": "112945411415-2gear86jplj5oa20p57c9sqd0p8beism.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeLLBOJReCxP-K7lt-i7ojNNhpargmU6Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112945411415-2gear86jplj5oa20p57c9sqd0p8beism.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
